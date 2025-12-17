@@ -2,13 +2,17 @@
 This is the pytorch codes for our paper:"Accounting for Shadows in Urban Canopy Coverage Mapping: A Hierarchical Spatial-Context Framework using Google Earth Imagery".This project provides a deep learning workflow for accurately estimating Urban Tree Canopy Coverage (UTCC) in high-density urban environments affected by complex shadow conditions. The proposed framework is designed to mitigate systematic underestimation of UTCC caused by building-cast shadows, especially dark shadows where spectral and visual information is severely degraded.Includes Google Earth imagery and annotated datasets, along with a configuration guide, sample data, and visualization scripts.
 # Environment configuration
 -python=3.8
-pip
-pip:
+
 -torch==2.0.1+cu117
+
 -torchvision==0.15.2+cu117
+
 -torchaudio==2.0.2+cu117
+
 -numpy=1.24
+
 -pandas=2.0
+
 -scipy=1.9
 -scikit-learn=1.3
 -matplotlib=3.7
